@@ -31,6 +31,7 @@ function setup() {
   angleMode(DEGREES);
   stroke(255, 50);
   fill(255);
+  pixelDensity(1);
 }
 
 function draw() {
