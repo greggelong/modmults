@@ -21,6 +21,7 @@ let m = 2;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
+  pixelDensity(1);
   if (width > height) {
     r = height / 2 - 10;
   } else {
@@ -31,7 +32,6 @@ function setup() {
   angleMode(DEGREES);
   stroke(255, 50);
   fill(255);
-  pixelDensity(1);
 }
 
 function draw() {
